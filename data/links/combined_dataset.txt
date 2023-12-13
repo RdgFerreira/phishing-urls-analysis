@@ -1,0 +1,18 @@
+https://www.kaggle.com/datasets/aman9d/phishing-data
+
+About Dataset
+Domain: The URL itself.
+Ranking: Page Ranking
+isIp: Is there an IP address in the weblink
+valid: This data is fetched from google's whois API that tells us more about the current
+status of the URL's registration.
+activeDuration: Also from whois API. Gives the duration of the time since the
+registration up until now.
+urlLen: It is simply the length of the URL
+is@: If the link has a '@' character then it's value = 1
+isredirect: If the link has double dashes, there is a chance that it is a redirect. 1-> multiple
+dashes present together.
+haveDash: If there are any dashes in the domain name.
+domainLen: The length of just the domain name.
+noOfSubdomain: The number of subdomains preset in the URL.
+Labels: 0 -> Legitimate website , 1 -> Phishing Link/ Spam Link
